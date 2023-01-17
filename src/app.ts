@@ -6,3 +6,4 @@ const getUrl = fetch(url)
     }).then(ronObj =>{
       console.log(ronObj);  
     })
+
