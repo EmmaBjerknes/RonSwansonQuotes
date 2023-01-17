@@ -4,19 +4,19 @@
 
 ## Learning AJAX
 
-I am currently in the process of learning AJAX and this is my first attempt at implementing it on my own.
+I am currently in the process of learning AJAX and this is my first attempt at implementing it on my own.  
 The API: [Ron Swanson Quotes](https://ron-swanson-quotes.herokuapp.com/v2/quotes/15).
 
 
 ## Description of assignment
 
-*The task is to find an open and well-documented API, avoid APIs that require a key. Build a website that sends a query to the API and displays the response using fetch and DOM manipulation. 
+* The task is to find an open and well-documented API, avoid APIs that require a key. Build a website that sends a query to the API and displays the response using fetch and DOM manipulation. 
 
-*While the response is loading from the server, show a "data loading" message, preferably an animated gif. 
+* While the response is loading from the server, show a "data loading" message, preferably an animated gif. 
 
-*Once the response is received from the server, remove the loading message and instead display the data from the server in a nicely formatted way using HTML and CSS. 
+* Once the response is received from the server, remove the loading message and instead display the data from the server in a nicely formatted way using HTML and CSS. 
 
-*The goal is to create something attractive and clever.
+* The goal is to create something attractive and clever.
 
 ## Technologies
 - Typescript  
@@ -27,5 +27,9 @@ The API: [Ron Swanson Quotes](https://ron-swanson-quotes.herokuapp.com/v2/quotes
 Compile with tsc in the project folder.  
 Open index.html to view project.  
 
-# About Emma
+# About me
+
+Hello everyone, my name is Emma, and I am currently studying front-end programming in Sweden.  I have a passion for creating beautiful and user-friendly websites, and I am always eager to learn and grow as a developer.  
+
+
 ༼ つ ಥ_ಥ ༽つ *knowledge*
