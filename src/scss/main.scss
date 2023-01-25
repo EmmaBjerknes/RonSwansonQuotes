@@ -1,1 +1,38 @@
 @use 'sass-utils' as *;
+
+@mixin box-shadow($x){
+    box-shadow: 3px 3px 3px $x;
+}
+
+body{
+    text-align: center;
+}
+
+.btns{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#quotesDiv{
+    background-color: $primary-color;
+    width: $card-width;
+    height: $card-height;
+    border-radius: 2rem;
+    padding: 1rem;
+    @include box-shadow(grey);
+    p{
+        width: fit-content;
+        margin: auto;
+    }
+}
+
+#likedDiv{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    p{
+        @extend #quotesDiv;
+        margin: 3px;
+        background-color: $primary-color-dark;
+    }
+}
